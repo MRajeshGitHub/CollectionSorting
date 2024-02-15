@@ -9,5 +9,7 @@ public class Student {
 	}
 	int sid;
 	String snme;
+	String add;
+	
 	
 }
