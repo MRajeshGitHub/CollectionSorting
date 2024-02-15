@@ -21,6 +21,7 @@ public class ArrayListGenricsTest {
 		System.out.println("--------------------------------");
 		Employee e1= el.get(0);
 		System.out.println(e1.eid+","+e1.ename);
+	
 		
 		
 	}

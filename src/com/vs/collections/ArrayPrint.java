@@ -8,7 +8,7 @@ public class ArrayPrint {
 		int arr[]= new int[5];
 		System.out.println(arr);//will give hash code because arr is object in java
 		for(int a:arr) {
-			System.out.println(a);
+			System.out.println(a);//will give default value
 		}
 	}
 
