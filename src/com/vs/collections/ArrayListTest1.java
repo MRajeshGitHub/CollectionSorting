@@ -17,5 +17,6 @@ public class ArrayListTest1 {
 		al.add(Integer.valueOf(99));//1.4 version to ass primitive data into collation
 		System.out.println(al);//toString called internally
 		System.out.println(al.toString());
+		System.out.println(al);
 	}
 }
