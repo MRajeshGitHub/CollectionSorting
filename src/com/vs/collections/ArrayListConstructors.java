@@ -11,7 +11,7 @@ public class ArrayListConstructors {
 		al.add(10);
 		al.add(20);
 		al.add(30);
-		ArrayList<Integer> al1= new ArrayList<>(al);//adding list to another list 
+		ArrayList<Integer> al1= new ArrayList<>(al);//adding list to another list in constructor
 		al1.add(40);
 		al1.add(50);
 		System.out.println(al1);
