@@ -10,11 +10,12 @@ public class EmpTestComparator {
 		al.add(new Emp(222, "Ajay"));
 		al.add(new Emp(555, "Ravi"));
 		al.add(new Emp(666, "Varun"));
-		al.add(new Emp(236, "Kartik"));
+		al.add(new Emp(236, "zaakir"));
 		//sort logic
 		//Collections.sort(al, new Eid_comp());
-		Collections.sort(al,new Eid_comp());
+		
 		//Collections.sort(al,new EnameComparator());
+		Collections.sort(al,new Eid_comp());//sorting using comparator
 		//print using forEach loop
 		for(Emp e:al) {
 			System.out.println(e.eid+","+e.ename);
