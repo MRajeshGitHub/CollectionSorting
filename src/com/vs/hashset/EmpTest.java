@@ -18,6 +18,13 @@ public class EmpTest {
 	Iterator<Employee> itr	=le.iterator();//Iterate the object data
 	while(itr.hasNext()) {
 		Employee e=itr.next();
+		if(e.eadd.equals("Hyd"))//remove operation
+			itr.remove();
+		if(e.eid==459)
+			itr.remove();
+		if(e.eadd.equals("Vizag"))
+			itr.remove();
+	
 		System.out.println("Iterated data :"+e.eid+","+e.ename+","+e.eadd);//PRINT USING COURSER
 	}
 	System.out.println("---------------------------------------");
