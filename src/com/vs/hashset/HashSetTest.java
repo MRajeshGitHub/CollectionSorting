@@ -38,6 +38,8 @@ public class HashSetTest {
 		lh.add("Rohan");
 		lh.add("Rajesh");//ignored by Hashset rules duplicate not allowed
 		System.out.println(lh);//INSETTION ORDET IS PRESERVED
+		
+		
 
 	}
 
