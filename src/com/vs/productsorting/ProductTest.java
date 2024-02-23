@@ -13,8 +13,8 @@ public class ProductTest {
 		ll.add( new Product(149, "StudtBoard", 400.0));
 		ll.add( new Product(146, "PenBox", 120.0));
 		//sorting logic
-		Collections.sort(ll, new Name_Comprator());////sorting with NAME comparison of product
-		//Collections.sort(ll,new Id_Comprator());//sorting with Id comparison of product
+		//Collections.sort(ll, new Name_Comprator());////sorting with NAME comparison of product
+		Collections.sort(ll,new Id_Comprator());//sorting with Id comparison of product
 		//printing the product data using forEach loop
 		
 		for(Product p:ll) {
