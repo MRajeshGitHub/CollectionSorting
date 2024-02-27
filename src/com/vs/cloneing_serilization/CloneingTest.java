@@ -17,8 +17,8 @@ public class CloneingTest implements Cloneable{
 		//clone return class is object class
 		CloneingTest t=(CloneingTest)c.clone();//clone the object and store into class object and print the cloned object values
 	
-		//print the cloned data using cloned object reference
 		System.out.println(t.a);
+		//print the cloned data using cloned object reference
 		System.out.println(t.b);// java.lang.CloneNotSupportedException: to solve this we need to implements Cloneable Interface
 		//cloneable is marker interface witch have some special capabilities to clone the class
 		
