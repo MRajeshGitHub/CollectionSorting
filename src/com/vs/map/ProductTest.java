@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class ProductTest {
 
-	@SuppressWarnings("removal")
+	
 	public static void main(String[] args) {
 		// Product data operation with Map collections
 
