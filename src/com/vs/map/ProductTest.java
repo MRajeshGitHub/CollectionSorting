@@ -25,10 +25,10 @@ public class ProductTest {
 		while(itr.hasNext()) {
 			Entry<Integer, Product> e=itr.next();
 			Product p=e.getValue();
-			if(p.pid==10)
-				itr.remove();//removed id =10
-			if(p.pname.equals("Pen"))
-				itr.remove();//removed name=pen
+		//	if(p.pid==10)
+			//	itr.remove();//removed id =10
+			//if(p.pname.equals("Pen"))
+			//	itr.remove();//removed name=pen
 		}
 		//print the map data
 		
