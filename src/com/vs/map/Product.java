@@ -2,7 +2,7 @@ package com.vs.map;
 
 public class Product {
 
-	int pid;
+	Integer pid;
 	String pname;
 	public Product(int pid, String pname) {
 		super();
